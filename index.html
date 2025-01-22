@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reenu | Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/fav.jpg" type="image/jpg+xml">
+</head>
+
+<body>
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>R</span>EENU.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- <div class="header-text">
+
+                <div id="home">
+
+                    <div class="row">
+                        
+                        <div class="home-col-2">
+                            <p  class="sub-title">Hello,</p>
+                            <h1 class="sub-title">I'm <span>Reenu</span> </h1>
+                            <p>Back-End Developer</p>
+                            <button type="button"><a href="images/ReenuR.pdf">Resume</a></button>
+                        </div>
+                        <div class="home-col-1">
+                            <img src="./images/RS.jpg" alt="" height="90%">
+
+                            <audio autoplay loop>
+                                <source src="/images/Flute_Music_Background_Music(128k).mp3">
+                            </audio>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+<!-- home -->
+<div id="home">
+    <div class="container">
+        
+        <div class="header-text">
+
+            <div id="home">
+
+                <div class="row">
+                    
+                    <div class="home-col-2">
+                        <p  class="sub-title">Hello,</p>
+                        <h1 class="sub-title">I<em style="color: #b3982b;">'</em> m <span>Reenu</span></h1>
+                        <p  class="sub-title" id="role">Backend Developer</p>
+                        <div class="btn-container">
+                            <a href="images/ReenuR.pdf" class="btn btn2" target="_blank">Resume</a>
+                            <a href="#contact" class="btn btn2">Contact</a>
+                        </div>
+                    </div>
+                    <div class="home-col-1">
+                        <img src="images/self.jpg" alt="">
+
+                        <audio autoplay loop>
+                            <source src="images/Flute_Music_Background_Music(128k).mp3">
+                        </audio>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- .....................About Section....................... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/about.png" alt="">
+                    <!-- <img src="images/reuser.png" alt=""> -->
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span>A</span>bout Me</h1>
+                    <p>Motivated and adaptable Computer Science student with strong ability to quickly learn new technologies and concepts. Skilled at performing well in fast-paced, collaborative environments. Eager to apply my academic knowledge and hands-on experience to pursue a career in software engineering, with a focus on continuous growth and contributing to innovative solutions.</p>
+                    <div class="tab-titles">
+                        <!-- <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> -->
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                    </div>
+               
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>Backend Developer</span></li>
+                            <li>Developing the backend of an eCommerce project using Django to ensure efficient product management, user interactions, and payment processing.</li>
+                            <li>
+                                Managing Wix and WordPress-based websites for Accure Medical, including content updates and site maintenance.
+                                Optimizing user experience across both Wix and WordPress platforms.
+                            </li>
+                            <li>
+                                Implemented payment gateway integrations on the Wix website using Razorpay and PayU, enabling secure transactions.
+                                Demonstrating strong skills in backend development, web management, and cross-platform website optimization.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificate">
+                        <ul>
+                            <li><span>Python</span><br>I have undertaken a comprehensive Python Programming Course,
+                                gaining hands-on experience in writing, debugging, and optimizing Python code.</li>
+                        </ul>
+                        <ul>
+                            <li><span>C/CPP</span><br>I have completed an in-depth C/C++ Programming Course, acquiring
+                                practical skills in writing, debugging, and optimizing C and C++ code. The course
+                                explored key areas such as data structures, algorithms, object-oriented programming, and
+                                memory management.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>B.Tech in CSE from Kothiwal Institute Of Technology & Professional
+                                Studies Moradabad.</li>
+                            <li><span>2020</span><br>XII from Methodist Girl's Inter College Moradabad.</li>
+                            <li><span>2018</span><br>X from Methodist Girl's Inter College Moradabad.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- skill -->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title"><span>Ski</span>lls</h1>
+        <div class="skills-list">
+            <div>
+                
+               <img src="images/skill/html.png" alt="" height="100px">
+            </div>
+            <div>
+               <img src="images/skill/css3.png" alt="">
+            </div>
+            <div>
+               <img src="images/skill/js.png" alt="">
+            </div>
+            <div>
+               <img src="images/skill/python.png" alt="">
+            </div>
+            <div>
+               <img src="images/skill/django.png" alt="">
+            </div>
+            <div>
+               <img src="images/skill/java.png" alt="">
+            </div>
+            <div>
+                <img src="images/skill/C.png" alt="">
+             </div>
+             <div>
+                <img src="images/skill/cpp.png" alt="">
+             </div>
+             <div>
+                <img src="images/skill/more.jpg" alt="">
+             </div>
+        </div>
+    </div>
+</div>
+    <!-- .............................projects................. -->
+    <div class="top-to-bottom"><a href="#contact"><i class="fa-solid fa-chevron-down"></i></a></div>
+    <div class="back-to-top"><a href="#"><i class="fa-solid fa-chevron-up"></i></a></div>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title"><span>Proj</span>ects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <!-- <i class="fa-brands fa-android"></i> -->
+                    <h2>NUMBER SHIFTING GAME</h2>
+                    <p>This is a terminal based Number shifting game.
+                        In This Player has given a 4*4 Matrix Puzzle
+                        consisting Digits from 1 - 15 at random place,
+                        and a blank space. Player's task is to sort the
+                        4*4 matrix in non decreasing order.</p>
+                    <a href="https://github.com/Reenusingh/Number_shifting_game"
+                            target=" ">Code</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+
+                    <h2>SMART CALC</h2>
+                    <p>This is a terminal based Calculator. In this user
+                        pass the input in the form of string based on
+                        user's input it give the output. it is developed using Core Python.</p>
+                    <a href="https://github.com/Reenusingh/smart_calc" target=" ">Code</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-x"></i>
+                    <h2>TIC-TAC-TOE</h2>
+                    <p>This is a terminal based menu driven game. In this
+                        game player can choose whether he want to play
+                        with another player, computer or evil computer. It is developed using C language.</p>
+                    <a href="https://github.com/Reenusingh/Tic-Tac-Toe" target=" ">Code</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Digital Clock</h2>
+                    <p>it is simple a web based Digital Clock. It is developed using HTML, CSS, and JS(javascript)</p>
+                    <a href="https://github.com/Reenusingh/Digital_Clock"target=" ">SourceCode</a>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ..................contact............... -->
+<div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/mgvvgojq" method="POST" id="contact-form">
+
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your Email" required>
+                        <textarea name="feedback" rows="8" placeholder="Your Feedback"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <div id="thank-you-popup" class="popup">
+                        <div class="popup-content">
+                            <span class="close-btn" onclick="closePopup()">&times;</span>
+                            <p>Thank you for your message! I will get back to you soon.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-left">
+                    <h1 class="sub-title"><span>Cont</span>act</h1>
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:reenus706@gmail.com">reenus706@gmail.com</a></p>
+                    <div class="social-icons">
+                        <a href="./https://x.com/Reenusi78091989?t=8iKJVZ88HiTvMQ4IkMVBNg&s=08" target=" "><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="./https://www.linkedin.com/in/reenu-singh-3a784422b/" target=" ">
+                            <i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="./https://github.com/Reenusingh" target=" "><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="images/ReenuR.pdf" class="btn btn2" target=" ">Download CV</a>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                <p>Developed by &commat; Reenu  <span>&#9829;</span></p>
+
+
+
+            </div>
+
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove('active-tab');
+                }
+                event.currentTarget.classList.add('active-link');
+                document.getElementById(tabname).classList.add('active-tab')
+            }
+        </script>
+        <script>
+            var sidemen = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemen.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemen.style.right = "-200px";
+            }
+        </script>
+         <script>
+            const roles = ["Web Developer", "Software Engineer"];
+            let currentRoleIndex = 0;
+            const roleElement = document.getElementById("role");
+    
+            function typeWriter(text, element, callback) {
+                let i = 0;
+                element.textContent = "\u00A0"; // Ensure there is always at least one character (non-breaking space)
+                const interval = setInterval(() => {
+                    if (i < text.length) {
+                        element.textContent = text.substring(0, i + 1);
+                        i++;
+                    } else {
+                        clearInterval(interval);
+                        if (callback) callback();
+                    }
+                }, 100); // Adjust typing speed here
+            }
+    
+            function loopRoles() {
+                typeWriter(roles[currentRoleIndex], roleElement, () => {
+                    setTimeout(() => {
+                        currentRoleIndex = (currentRoleIndex + 1) % roles.length;
+                        loopRoles();
+                    }, 2000); // Adjust delay between roles here
+                });
+            }
+    
+            loopRoles();
+
+
+        // Handle form submission
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const form = event.target;
+        const formData = new FormData(form);
+
+        fetch(form.action, {
+            method: form.method,
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                form.reset();
+                const popup = document.getElementById('thank-you-popup');
+                popup.style.display = 'block';
+                setTimeout(() => {
+                    popup.style.display = 'none';
+                }, 10000); // Hide popup after 10 seconds
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwnProperty.call(data, 'errors')) {
+                        alert(data["errors"].map(error => error["message"]).join(", "));
+                    } else {
+                        alert('Oops! There was a problem submitting your form');
+                    }
+                });
+            }
+        }).catch(error => {
+            alert('Oops! There was a problem submitting your form');
+        });
+    });
+
+    function closePopup() {
+        document.getElementById('thank-you-popup').style.display = 'none';
+    }
+        </script>
+</body>
+
+</html>
