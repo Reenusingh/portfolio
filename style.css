@@ -183,7 +183,7 @@ div h1 span{
    background: #b3982b; 
    position: absolute;
    left: 0;
-   bottom: -9;
+   bottom: -8px;
    transition: 0.5s;
 }
 .tab-links.active-link::after{
